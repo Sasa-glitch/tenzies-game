@@ -24,7 +24,7 @@ export default function Main() {
         //     console.log(counter)
         // }
 
-    }, [dice])
+    }, [dice, counter, tenzies, topCounter])
 
     function allNewDice() {
         const dieArray = [];
